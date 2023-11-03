@@ -41,6 +41,9 @@ ignore = ["CPY", "EXE", "T20", "E203", "E501", "D100", "INP001"]
 [tool.ruff.pydocstyle]
 convention = "google"
 
+[tool.mypy]
+strict = true
+
 [tool.rye]
 managed = true
 dev-dependencies = [
