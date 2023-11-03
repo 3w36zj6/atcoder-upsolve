@@ -4,6 +4,9 @@
     "source.organizeImports.ruff": true
   },
   "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   // Tester
   "python.testing.pytestArgs": ["tests"],
   "python.testing.unittestEnabled": false,
