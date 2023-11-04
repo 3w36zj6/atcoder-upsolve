@@ -36,7 +36,17 @@ line-length = 120
 [tool.ruff]
 line-length = 120
 select = ["ALL"]
-ignore = ["CPY", "EXE", "T20", "E203", "E501", "D100", "D415", "INP001", "S101"]
+ignore = [
+    "EXE",    # flake8-executable
+    "T20",    # flake8-print
+    "E501",   # line-too-long
+    "D203",   # one-blank-line-before-class
+    "D213",   # multi-line-summary-second-line
+    "D100",   # undocumented-public-module
+    "D415",   # ends-in-punctuation
+    "INP001", # implicit-namespace-package
+    "S101",   # assert
+]
 
 [tool.ruff.pydocstyle]
 convention = "google"
