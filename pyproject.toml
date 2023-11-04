@@ -36,7 +36,7 @@ line-length = 120
 [tool.ruff]
 line-length = 120
 select = ["ALL"]
-ignore = ["CPY", "EXE", "T20", "E203", "E501", "D100", "INP001"]
+ignore = ["CPY", "EXE", "T20", "E203", "E501", "D100", "D415", "INP001"]
 
 [tool.ruff.pydocstyle]
 convention = "google"
