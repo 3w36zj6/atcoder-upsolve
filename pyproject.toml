@@ -35,8 +35,8 @@ line-length = 120
 
 [tool.ruff]
 line-length = 120
-select = ["ALL"]
-ignore = [
+lint.select = ["ALL"]
+lint.ignore = [
     "EXE",    # flake8-executable
     "T20",    # flake8-print
     "E501",   # line-too-long
@@ -47,9 +47,7 @@ ignore = [
     "INP001", # implicit-namespace-package
     "S101",   # assert
 ]
-
-[tool.ruff.pydocstyle]
-convention = "google"
+lint.pydocstyle.convention = "google"
 
 [tool.mypy]
 strict = true
@@ -59,7 +57,7 @@ managed = true
 dev-dependencies = [
     "black~=23.3.0",
     "pytest~=7.3.2",
-    "ruff>=0.0.287",
+    "ruff>=0.4.1",
     "mypy>=1.5.1",
 ]
 
