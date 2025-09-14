@@ -1,8 +1,9 @@
 [tools]
-rye = "0.42.0"
 python = ["3.11.4", "pypy3.10-7.3.12"]
 uv = "0.8.17"
 ruff = "0.13.0"
+"pipx:pytest" = "8.3.5"
+"pipx:mypy" = "1.18.1"
 
 [env]
 _.python.venv = ".venv"
