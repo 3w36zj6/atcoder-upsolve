@@ -5,5 +5,7 @@ ruff = "0.13.0"
 "pipx:pytest" = "8.3.5"
 "pipx:mypy" = "1.18.1"
 
+nim = "2.2.4"
+
 [env]
 _.python.venv = ".venv"
