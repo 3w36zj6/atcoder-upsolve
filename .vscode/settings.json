@@ -1,4 +1,7 @@
 {
+  "github.copilot.enable": {
+    "python": false
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.ruff": "always",
     "source.organizeImports.ruff": "always"
